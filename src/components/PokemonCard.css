@@ -1,0 +1,9 @@
+.pokemon-card{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg,  rgba(74,74,92,0.6) 20%, rgba(124, 124, 139, 0.6) 40%, rgba(172, 172, 179, 0.6) 48%);
+    margin: 2%;
+    height: 300px;
+    width: 300px;
+    justify-items: center;
+    border-radius: 15%;
+}
