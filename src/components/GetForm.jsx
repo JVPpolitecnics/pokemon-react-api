@@ -15,10 +15,9 @@ function GetForm(props){
  }
 
  const handleSpecies = (e) => {
-    e.preventDefault();
-    setSpecies(e.target.value);
+   // setSpecies(e.target.value);
     console.log(e.target.value)
-    props.filterPokemons(species)
+    props.filterPokemons(e.target.value)
  }
  return (
     <form onSubmit={handleSubmit}>
